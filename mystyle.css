@@ -1,0 +1,34 @@
+body{
+background-color:#00ffff;
+}
+h1{
+background-color:orange;
+text-align:center;
+}
+ul{
+list-style-type:none;
+margin: 0;
+padding:  0;
+overflow: hidden;
+background-color: #e21818;
+}
+li{
+float: left;
+border-rigth:5px solid #bbb;
+}
+li:last-child{
+border-rigth:none;
+}
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px   16px;
+text-decoration: none;
+}
+li a:hover:not(.active){
+background-color:#701edb;
+}
+.active{
+background-color:#333;
+}
